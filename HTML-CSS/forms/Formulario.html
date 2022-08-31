@@ -9,61 +9,77 @@
   <body>
     <h1>Cadastro da liga dos astronautas</h1>
     <form action="Aqui devo chamar a acao get ou post">
-      <label for="nome">Nome:</label>
-      <input
-        type="text"
-        id="nome"
-        name="nome"
-        value=""
-        required
-        placeholder="Digite seu nome completo"
-      />
+      <div>
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          value=""
+          required
+          placeholder="Digite seu nome completo"
+        />
+      </div>
       <br />
-      <br />
-      <label for="email">Email:</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        value=""
-        required
-        placeholder="Digite seu email"
-      />
-      <label for="senha"> - Password</label>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value=""
+          required
+          placeholder="Digite seu email"
+        />
+        <label for="senha"> - Password</label>
 
-      <input type="password" name="senha" id="senha" required /><br /><br />
-      <label for="idade">Date de nacimento</label>
-      <input type="date" name="idade" id="idade" required />
-      <label for="foto"> - Foto</label>
-      <input type="file" name="foto" id="foto" /><br /><br />
-      <label for="pais">Nacionalidade</label>
-      <select name="pais" id="pais">
-        <option value="russian">Russa</option>
-        <option value="american">Americano</option>
-        <option value="brasileiro">Brasileiro</option>
-      </select>
-      Genero:
-      <label for="sexo">F</label>
-      <input type="radio" name="sexo" id="sexo" />
-      <label for="sexo">M</label>
-      <input type="radio" name="sexo" id="sexo" />
+        <input type="password" name="senha" id="senha" required /><br /><br />
+      </div>
+      <br />
+      <div>
+        <label for="idade">Date de nacimento</label>
+        <input type="date" name="idade" id="idade" required />
+        <label for="foto"> - Foto</label>
+        <input type="file" name="foto" id="foto" /><br /><br />
+      </div>
+      <br />
+      <div>
+        <label for="pais">Nacionalidade</label>
+        <select name="pais" id="pais">
+          <option value="russian">Russa</option>
+          <option value="american">Americano</option>
+          <option value="brasileiro">Brasileiro</option>
+        </select>
+        Genero:
+        <label for="sexo">F</label>
+        <input type="radio" name="sexo" id="sexo" />
+        <label for="sexo">M</label>
+        <input type="radio" name="sexo" id="sexo" />
+      </div>
+
       <p>Suas pricipais qualidades:</p>
-      <label for="i">Inteligencia </label>
-      <input type="checkbox" name="i" id="i" />
-      <label for="r">| Resilencia </label>
-      <input type="checkbox" name="r" id="r" />
-      <label for="p">| Preparo fisico</label>
-      <input type="checkbox" name="p" id="p" />
-      <label for="e">| Educaçao</label>
-      <input type="checkbox" name="e" id="e" /><br /><br />
-      <label>Mensagem:</label><br /><textarea
-        class="msg"
-        cols="35"
-        rows="8"
-        placeholder="Digite sua mensagen"
-      ></textarea
-      ><br />
-      <input class="btn_submit" type="submit" value="Enviar" />
+
+      <div>
+        <label for="i">Inteligencia </label>
+        <input type="checkbox" name="i" id="i" />
+        <label for="r">| Resilencia </label>
+        <input type="checkbox" name="r" id="r" />
+        <label for="p">| Preparo fisico</label>
+        <input type="checkbox" name="p" id="p" />
+        <label for="e">| Educaçao</label>
+        <input type="checkbox" name="e" id="e" /><br /><br />
+      </div>
+
+      <div>
+        <label>Mensagem:</label><br /><textarea
+          class="msg"
+          cols="35"
+          rows="8"
+          placeholder="Digite sua mensagen"
+        ></textarea
+        ><br />
+        <input class="btn_submit" type="submit" value="Enviar" />
+      </div>
     </form>
   </body>
 </html>
