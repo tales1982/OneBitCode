@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.post-container {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fffafa;
+  width: 70%; /*defive o tanho da minha tela (corpo-largura)*/
+  height: 100%;
+  margin: 8px auto 8px auto; /*Centraliza minha imaguen na tela*/
+}
+.date {
+  font-family: "Roboto", sans-serif;
+  color: #008080;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.post-container .post {
+  /*Alteracao dentro do titulo e paragrafos*/
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
