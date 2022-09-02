@@ -7,10 +7,18 @@
 .container{
     background-color: darkgray;
     min-height: 100vh;
+    display: flex;
+    gap: 0px 15px;
+    justify-content: center;/*tenho varias opçoes para centraliza tenho o center*/
+    align-items: center;/*Com essa opçao vou alinha minha imaguen no centro da tela bem no meio*/
+    flex-wrap: wrap;/*Muito importante fais com que quebre a linha se eu tiver 3 imagens quando eu diminuir minha janela vai ser quebrada pra baixo o pra cima dependo se eu quero que quebre pra cima ou baixo*/
 }
 .item{
     width: 200px;
     height: 200px;
     border: 2px solid black;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
