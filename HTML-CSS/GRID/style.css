@@ -14,12 +14,14 @@ strong {
   grid-template-columns: 1fr 1fr 1fr ;/*Aqui endica contas linhas eu vou ter no caso 3 fr e equivalente a 4 linhas */
   gap: 10px 15px;
   grid-auto-rows: minmax(80px, auto);
+  width: 350px;
 }
 .item {
   border: 2px solid black;
   background-color: white;
   font-size: 30px;
   padding: 10px;
+  
 }
 /*O GRID-COLUMN trabalha com minha coluna na horizontal -- */
 /*O GRID-ROW trabalha com minhas colunas na vertical | */
