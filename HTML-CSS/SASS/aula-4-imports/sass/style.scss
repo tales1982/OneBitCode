@@ -1,0 +1,9 @@
+
+// Muito importante tem que seguir a hierarquia das paginas/////
+//aqui no casso eu declarei uma variavel color e usei essa variavel na pagina home por isso a importe color tem que ta em cima. 
+
+//Imports color
+@import "./colors/color.scss";
+
+//Import Home
+@import "./pages/home.scss";

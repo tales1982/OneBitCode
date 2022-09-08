@@ -1,0 +1,20 @@
+/*posso acessar todoqs as tag que estiverem dentro da minha classe */
+/*Tambem posso acersar o hover sem ter que abri outra classe basta ussar -- &:hover segue o exemplo abaixo*/
+    .classe1{
+        ul {
+            background-color: red;
+        }
+        li{
+            background-color: green;
+            padding: 10px 0px;
+        }
+        button{/*tem a vantagen de poder ussar todos os recurso tanto no butao como no hover */
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+            &:hover{/*aqui e onde chomo o hover*/
+                background-color: yellow;
+                transition: 1s;/*e o tempo que demora para entra efeito no meu butao no casso ficar amarelo*/
+            }
+        }
+    }

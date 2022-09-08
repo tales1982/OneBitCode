@@ -1,0 +1,21 @@
+#title-home{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: $btn-background;
+    color: white;
+    cursor: pointer;
+    width: 95px;
+    display: block;
+    margin-top: 10px;
+}
+
+/*******Usando o MIXIN*****AQUI e onde declaro 1 ja usando tb as vareaveis */
+
+@mixin text-style($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}

@@ -1,0 +1,8 @@
+
+//usando o MIXIN
+
+.conteiner{
+    p {
+        @include text-style(green, 28px, arial);
+    }
+}

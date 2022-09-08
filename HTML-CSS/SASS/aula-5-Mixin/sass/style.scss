@@ -1,0 +1,33 @@
+
+
+/*Essa declaracao seria feita assim mais com o mixin fica do cheito ai abaixo
+.text{
+    h1{
+        color: #ff4043;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        color: blue;
+        font-size: 22px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+*/
+
+/*************USANDO O @mixin*********************/
+/*neste casso eu declarei as minha vareaveis que queria usar e aqui em baixo passo somente o valor.*/
+@mixin text($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.text{
+    h1{
+        @include text(green, 34px, arial)
+    }
+    p{
+        @include text(red, 24px, sans-serif)
+    }
+}
