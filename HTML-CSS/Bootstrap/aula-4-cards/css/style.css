@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.corpo {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.corpo .text-principal {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.corpo h2 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+ul, li, p, h5, h6, a {
+  color: black;
+}
+
+.card-img-top-1 {
+  width: auto;
+  height: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */
