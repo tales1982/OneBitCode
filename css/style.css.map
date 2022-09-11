@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../HTML-CSS/Bootstrap/aula-2-tipografia/sass/style.scss","../HTML-CSS/Bootstrap/aula-2-tipografia/sass/variaveis/variaveis.scss"],"names":[],"mappings":"AAEA;EACI;;;AAEJ;EACI,kBCNS;;ADQV;EACK,OCRI;;;ADYZ;EACI;EACA;EACA,OCfQ","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../HTML-CSS/Bootstrap/aula-2-tipografia/sass/style.scss","../HTML-CSS/Bootstrap/aula-2-tipografia/sass/variaveis/variaveis.scss"],"names":[],"mappings":"AACA;EACI;EACA;EACA;;;AAIJ;EACI;;AAEJ;EACQ,OCXI;;;ADeZ;EACI;EACA;EACA,OClBQ","file":"style.css"}

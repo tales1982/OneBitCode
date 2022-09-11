@@ -1,12 +1,15 @@
 @import"variaveis/variaveis.scss";
-
-body{
-    background-color: black;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.container{
-    background-color: $color-black;
 
-   h1,h2,h3,h4,h5,h6,p{
+
+.container{
+    background-color: black;
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
         color: $color-whit;
     }
 

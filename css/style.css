@@ -1,11 +1,13 @@
-body {
-  background-color: black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
   background-color: black;
 }
-.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container p {
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container p, .container ul, .container li {
   color: white;
 }
 
