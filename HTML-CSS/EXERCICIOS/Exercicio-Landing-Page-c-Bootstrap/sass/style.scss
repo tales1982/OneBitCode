@@ -1,5 +1,8 @@
 .body{
 background-image:url(../imagens/backgroundLp.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
 
 color: white;
 }
@@ -41,4 +44,9 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 padding-top: 40px;
+}
+@media(max-width: 514px){
+.form{
+    width: auto;
+}
 }
