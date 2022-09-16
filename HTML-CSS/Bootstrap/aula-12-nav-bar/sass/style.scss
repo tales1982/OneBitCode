@@ -3,6 +3,7 @@
 .body{
     background-color: $background;
     color:$color;
+    margin: 20px;
 }
 
 .h01{
@@ -16,4 +17,10 @@
     flex-direction: column;
    align-items: flex-start;
    padding-top: 60px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
 }
