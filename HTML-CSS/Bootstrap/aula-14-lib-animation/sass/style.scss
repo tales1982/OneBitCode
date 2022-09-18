@@ -1,0 +1,9 @@
+@import"variables/variables.scss";
+.body{
+    background-color: $b-g;
+    color: $color;
+}
+
+.container{
+    min-height: 100vh;
+}
