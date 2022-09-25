@@ -1,9 +1,11 @@
-const primeiroNome = window.prompt("Iforme o primeiro nome do recruta:")
-const sobrenome = window.prompt("Informe o sobrenome do recruta:")
-const campoDeEstudo = window.prompt("qual é o campo de estudo do recruta?")
-const anoDeNacimento = window.prompt("Qual o ano de naçimento do recruta?")
+const firstName = window.prompt("Enter the recruit's first name:");
+const lastNome = window.prompt("Enter the recruit's last name:");
+const fieldOfStudy = window.prompt("What is the recruit's field of study?");
+const yearOfBirth = window.prompt("What is the recruit's year of birth?");
 
 
 alert(
-  `Recruta cadastrado com sucesso!\n Nome completo: ${primeiroNome} ${sobrenome}\n Campo de estudo: ${campoDeEstudo}\ne sua idade é:  ${2022 - anoDeNacimento } anos.`
+  `Successfully registered recruit!\n Full name: ${firstName} ${lastNome}\n field of study: ${fieldOfStudy}\nand your age is:  ${
+    2022 - yearOfBirth
+  } anos.`
 );
