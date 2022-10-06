@@ -48,13 +48,20 @@ const dividindoArray = nomesListaArray.slice(0, 4)
 console.log(nomesListaArray)
 console.log(dividindoArray)
 
-//Com o .concat posso junta dois ou mais array em um novo array
-const array2 = [1 , 2 , 3]
-const novoArrayConcat = nomesListaArray.concat(array2)
+//Com o .concat posso junta dois ou mais array em um novo array e ainda acresentar mais elementos ser assim desejar
+const array2 = ["tales" , "Suelia" , "paulin"]
+const novoArrayConcat = nomesListaArray.concat(array2,)
 console.log(novoArrayConcat)
 
 
 //Para subistituir um elemendo do meu array por outro usso o .splice seleçiono de onde quero começar no casso escolhir o 0 e quantos elementos vou alterar no casso 3
 console.log(array2)
-array2.splice(0,3 ,"tales","tales3","tales4")
-console.log(array2)
+const elementosApagado =array2.splice(0,3,"tales","lima","DePaula","teste",true,1,8)
+console.log(elementosApagado)
+
+
+//iterar sobre os elementos do array pecorrer todos o arrays.
+for ( let indece = 0 ; indece <  novoArrayConcat.length; indece ++){
+    const elemento = novoArrayConcat[indece]
+    console.log(elemento + " se encontra na posiçao " + indece)
+}
