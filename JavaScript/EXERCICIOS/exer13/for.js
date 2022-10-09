@@ -17,7 +17,7 @@ let opcao = "";
 let imoveis = [];
 
 do {
-  opcao = prompt(`Bem-vindo(a) ao Cadastro de Imoveis!\nTotal de Imoveis ${imoveis.length}\n\nEscolha uma opçao:\n1. Novo Imovel\n2. Lista Imoveis\n3. Sair.`);
+  opcao = prompt(`Bem-vindo(a) ao Cadastro de Imoveis!\nTotal de Imoveis ${imoveis.length}\n\nEscolha uma opçao:\n1. Novo Imovel\n2. Listar Imoveis\n3. Sair.`);
 
   switch (opcao) {
     case "1":
@@ -30,6 +30,9 @@ do {
         const confirmacao = confirm(`Salva este Imovel?\nProprietario: ${imovel.proprietario}\nQuartos: ${imovel.quartos}\nBanheiro: ${imovel.banheiro}\nPossui Garagem? ${imovel.garagem}`)
         if(confirmacao){
             imoveis.push(imovel)
+            alert("Imovel Salvo com suçesso!")
+        }else{
+          alert("Voltando ao menu.")
         }
       break
     
