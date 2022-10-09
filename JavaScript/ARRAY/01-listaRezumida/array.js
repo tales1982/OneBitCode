@@ -5,7 +5,7 @@ console.log(nomesListaArray)
 console.log(nomesListaArray[5]);
 
 //Adcionar Elementos --> .push()
-//O PUSH adcionar um elemento no FINAL DA LISTA do array.
+//O PUSH adcionar um elemento no FINAL DA LISTA do array..
 nomesListaArray.push("Suelia")
 console.log(nomesListaArray)
 
