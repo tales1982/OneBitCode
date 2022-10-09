@@ -27,7 +27,7 @@ do {
         imovel.banheiro = prompt("Quantos banheiros possui o imovel?")
         imovel.garagem = prompt("Possui garagem o imovel?(sim/nao)")
 
-        const confirmacao = confirm(`Salva este Imovel?\nProprietario: ${imovel.proprietario}\nQuartos: ${imovel.quartos}\nBanheiro: ${imovel.banheiro}\nPossui Garagem? ${imovel.garagem}`)
+        const confirmacao = confirm(`Salva este Imovel?\nProprietario: ${ imovel.proprietario}\nQuartos: ${ imovel.quartos}\nBanheiro: ${ imovel.banheiro}\nPossui Garagem? ${ imovel.garagem}`)
         if(confirmacao){
             imoveis.push(imovel)
             alert("Imovel Salvo com suçesso!")
@@ -38,7 +38,7 @@ do {
     
     case "2":
         for (let i = 0; i < imoveis.length; i++ ){
-            alert(`Imovel ${i + 1}\nProprietario: ${imoveis[i].proprietario}\nQuartos ${imoveis[i].quartos}\nBanheiros: ${imoveis[i].banheiro}\nGaragem ${imoveis[i].garagem}`)
+            alert(`Imovel: ${i + 1}\nProprietario: ${imoveis[i].proprietario}\nQuartos: ${imoveis[i].quartos}\nBanheiros: ${imoveis[i].banheiro}\nGaragem: ${imoveis[i].garagem}`)
         }
     break
     case "3":
