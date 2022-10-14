@@ -44,7 +44,14 @@ Escreva um programa em javascript para calcular a área de diferentes formas geo
      function executar(){
         
         opcao = prompt(
-   `Escolha umas das opçoes abaixo:\n\n1° Calcular a área do triângulo:\n2° Calcular a área do retângulo:\n3° Calcular a área do quadrado:\n4° Calcular a área do trapézio:\n5° Calcular a área do circulo:\n6° Sair.`)
+   `Escolha umas das opçoes abaixo:
+   
+   1° Calcular a área do triângulo:
+   2° Calcular a área do retângulo:
+   3° Calcular a área do quadrado:
+   4° Calcular a área do trapézio:
+   5° Calcular a área do circulo:
+   6° Sair.`)
    switch (opcao) {
         case "1":
          alert(`O resultado é: ${triangulo()} `)
