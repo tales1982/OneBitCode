@@ -38,14 +38,14 @@ Escreva um programa em javascript para calcular a área de diferentes formas geo
      
      function circulo() {
        let raio = Number(prompt("Digite o raio."));
-       return  (raio * raio) * 3.14 ;
+       return   3.14 * raio * raio ;
      }
 
      function executar(){
         
         opcao = prompt(
    `Escolha umas das opçoes abaixo:
-   
+
    1° Calcular a área do triângulo:
    2° Calcular a área do retângulo:
    3° Calcular a área do quadrado:
