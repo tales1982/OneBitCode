@@ -7,14 +7,49 @@ const personagens = [
   { nivel: 39, nome: "Tyrande", raca: "Elfo Noturno", classe: "Sacerdotisa" },
   { nivel: 29, nome: "Muradin", raca: "Anão", classe: "Guerreiro" },
 ];
-
-
-//1° metodo MAP
+//############################### 1° .map() exemplo ############################################
+//maneiras de acessar um ou varios elemendo do array 
+//1° metodo MAP acesso todos os nome do array somente os nomes.
 /*
+//usando o for
 const nome = []
 for(let i = 0; i < personagens.length;i++){
     nome.push(personagens[i].nome)
 }
 console.log(nome)
 */
-personagens.forEach(nome);
+//posso chamar esse mesmo objeto usando o MAP()
+const nomes = personagens.map(function(personagem){
+  return personagem.nome
+})
+
+console.log(nomes)
+//############################# 2° .filter() exemplo ######################################
+//FILTER filtrando os objetos da minha lista, quero somente os objetos da raça "ORC"
+const orcs = personagens.filter(function(personagem){
+  return personagem.raca === "Orc"
+})
+
+console.log(orcs)
+
+//############################# 3° .reduce() exemplo ######################################
+//com o reduce posso cria um outro objeto por tipos de dados exemplo por nome, racas, nivel
+//tambem posso somar quantos elementos tenho exemlpo abaixo 
+
+
+const nivelTotal = personagens.reduce(function(valorAcumulado, personagem){
+return valorAcumulado + personagem.nivel
+},0)//este 0 indica que minha contagen vai comesar de 0
+console.log(nivelTotal)
+//estou somando o nivel de todos os elementos personagens.
+
+//Agora vou criar um novo objeto separando todos os elementos por raça
+const racas = personagens.reduce(function(valorAcumulado, personagem){
+  if(valorAcumulado[personagem.raca]){
+    valorAcumulado[personagem.raca].push(personagem)
+  }else {
+    valorAcumulado[personagem.raca] = [personagem]
+  }
+  return valorAcumulado
+}, {})
+console.log(racas)
