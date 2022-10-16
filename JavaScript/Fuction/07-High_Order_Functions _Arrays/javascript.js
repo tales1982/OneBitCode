@@ -53,3 +53,20 @@ const racas = personagens.reduce(function(valorAcumulado, personagem){
   return valorAcumulado
 }, {})
 console.log(racas)
+
+//############################# 4° .sort() exemplo #####################################
+// vou ussar o sort para ordena minha lista de objeto
+
+personagens.sort(function(a, b){
+  return a.nivel - b.nivel
+})
+console.log(personagens)
+
+//Dessa maneira minha lista de elementos fica do menor para o maior.
+// se eu quizer começar do maior para menor e so inverter o a para b --> ( return b.nivel - a.nivel)
+//posso tambem criar um novo array sem alterar o original e so criar uma variavel exemplo abaixo.
+const copiaDosPersonagens = personagens.slice().sort(function (a, b) {
+  return b.nivel - a.nivel;
+});
+console.log(copiaDosPersonagens);
+//Obs utilizei o .slice()
