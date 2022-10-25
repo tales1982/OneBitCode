@@ -26,3 +26,15 @@ matriz.push(["l4, c1"]); //Cria uma nova linha
 matriz[0].push("l1, c5"); // CRIA UMA Nova Coluna
 
 console.table(matriz);
+//##############################################ADCIONA UM ELEMENTO NO FINAL#############################
+const animals = ['pigs', 'goats', 'sheep'];
+
+const count = animals.push('cows');
+console.log(count);
+// expected output: 4
+console.log(animals);
+// expected output: Array ["pigs", "goats", "sheep", "cows"]
+
+animals.push('chickens', 'cats', 'dogs');
+console.log(animals);
+// expected output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]

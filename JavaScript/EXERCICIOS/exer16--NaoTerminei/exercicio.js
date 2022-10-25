@@ -17,14 +17,39 @@ Escreva um programa em javascript que simule um sistema de vagas de emprego, ond
 
 Este é o exercício de revisão do módulo, então aproveite para utilizar todos os recursos vistos até agora sempre que possível, como os objetos, arrays e funções.*/
 
+function listaDeVagas() {
+
+}
+
+function criarVagas() {
+  let vagaDeEmpregos = [];
+  let adcionarVaga = prompt(`Qual vaga voçe quer criar ${vagaDeEmpregos.push()}`) 
+  return vagaDeEmpregos, adcionarVaga
+}
+  
+
+function visualizarVagas() {
+
+}
+function adcionarCandidatoVaga() {
+
+}
+function excluiVaga() {
+
+}
+
 
 
 function executarMenu(opcao){ 
-opcao = prompt("VAGAS DE EMPREGOS.\nDigite 1 para listar vagas de empregos\nDigite 2 para criar uma nova vaga\nDigite 3 para visualizar uma vaga\nDigite 4 Para escrever um candidato a uma vaga\nDigite 5 para excluir uma vaga\nDigite 6 para SAIR")
+    do{
+        opcao = prompt("VAGAS DE EMPREGOS.\nDigite 1 para listar vagas de empregos\nDigite 2 para criar uma nova vaga\nDigite 3 para visualizar uma vaga\nDigite 4 Para escrever um candidato a uma vaga\nDigite 5 para excluir uma vaga\nDigite 6 para SAIR")
 switch(opcao){
     case "1":
+        listaDeVagas();
         break
     case "2":
+        criarVagas();
+        break
         break
     case "3":
         break
@@ -35,27 +60,12 @@ switch(opcao){
     case "6":
         alert("Saindo...")
         break
+        default:
+        alert("Opçao invalida tente novamente.")
+        break
 }
-}
-function listaDeVagas(){
-    
-    alert(`Vagas disponiveis`)
-}
-function criarVagas(){
-    novaVaga=[
-         motorista={
-            
-         }
-    ]
-}
-function visualizarVagas(){
+    }while(opcao !=="6")
 
 }
-function adcionarCandidatoVaga(){
-
-}
-function excluiVaga(){
-
-}
-
 executarMenu()
+
