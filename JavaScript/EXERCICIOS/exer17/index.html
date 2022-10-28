@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalaçao de time</title>
+    <script src="exercicio.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Escalação do Time!</h1>
+    </header>
+    <section>
+        <div class="container">
+            <p>Construa uma página web que permita montar a escalação de um time de jogadores. Nele deverá ser possível:</p>
+            <ul>
+                <li>Escalar um jogador</li>
+                <ul>
+                    <li>Informar a posição do jogador a ser escalado para o time.</li>
+                    <li>Informar o nome do jogador.</li>
+                    <li>Informar o número da camisa do jogador.</li>
+                    <li>Ter um botão “Escalar” que pergunta ao usuário se ele deseja confirmar a escalação daquele jogador e então insere as informações em uma lista na página.</li>
+                    <li>Após o jogador ser escalado os campos de texto devem ser limpos.</li>
+                </ul>
+                <li>Remover um jogador</li>
+                <ul>
+                    <li>Informar o número da camisa do jogador.</li>
+                    <li>Ter um botão “Remover” que pergunta ao usuário se ele deseja confirmar a remoção daquele jogador e então exclui ele da lista na página.</li>
+                    <li>Após o jogador ser removido o campo de texto deve ser limpo.</li>
+                </ul>
+            </ul>
+            <p>Dica: lembrando que é possível acessar o texto de um input através da propriedade value.</p>
+            <h2>Escalar Jogador</h2>
+            Posição <input type="text"> Nome <input type="text"> Numero <input type="text">
+            <button onclick="addPlayer()">Escalar um jogador</button><hr>
+            <h2>Remover Jogador</h2>
+            Numero <input type="text">
+            <button onclick="removePlayer()">Remover um jogador</button>
+        </div>
+    </section>
+    <section id="timeEscalado"></section>
+
+
+</body>
+</html>
