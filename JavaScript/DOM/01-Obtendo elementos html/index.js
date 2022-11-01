@@ -1,3 +1,4 @@
+/*
 //############################################## 1° Exemplo #####################################################
 //No javascript, através da função show() que será executada ao clicar no botão, podemos obter um elemento do DOM através do id:
 function show() {
@@ -57,4 +58,22 @@ function show() {
   console.log(contact);
   console.log(contact.textContent);
 }
+*/
+function show(){
+ const li1 = document.querySelector("#contact1").value;
+ const li2 = document.querySelector("#contact2").value;
+ const li3 = document.querySelector("#contact3").value;
+const nomeCompleto =`${li1}\n${li2}\n${li3} ` 
 
+
+const lista = document.querySelector("#span1")
+const ul = document.createElement("ul")
+const li = document.createElement("li")
+li.innerText = nomeCompleto
+ul.appendChild(li)
+lista.appendChild(ul)
+
+document.querySelector("#contact1").value = "";
+document.querySelector("#contact2").value = "";
+document.querySelector("#contact3").value = "";
+}
