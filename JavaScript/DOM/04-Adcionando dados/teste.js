@@ -16,4 +16,7 @@ span.appendChild(ul);
 document.querySelector("#ijogo").value = ""; //limpa o input depois que envia od dados
 document.querySelector("#ijogo2").value = "";
 }
-
+function removeContact(){
+    let liRemove = document.querySelector("#li-nome");
+    liRemove.remove()
+}
