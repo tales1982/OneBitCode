@@ -13,11 +13,11 @@ form.addEventListener("submit", function(ev){
     document.querySelectorAll('input[name="salada"]:checked').forEach(function(item){
         salada += ' - ' + item.value + '\n'
     });
-/*
+
     const ul = document.getElementById("ul")
     const li = document.createElement("li")
     li.innerText = nome +" "+ adress +" "+ pao+" " + carne+" " +salada +" " + msg
         
     
-    ul.appendChild(li)*/
+    ul.appendChild(li)
 });
