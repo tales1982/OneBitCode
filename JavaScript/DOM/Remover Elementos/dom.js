@@ -3,7 +3,8 @@ function adcionar(){
     let input = document.querySelector("#text-input").value;
     let ul = document.querySelector("#list-ul");
     let li = document.createElement("li");
-    li.innerText = input
+    li.id = input
+    li.innerText  = input
     section.appendChild(ul)
     ul.appendChild(li)
     document.querySelector("#text-input").value = "";
@@ -11,7 +12,7 @@ function adcionar(){
 
 function remover(){
     
-    let liValor = document.querySelector("li")
+    let liValor = document.querySelector("li.id")
+    liValor.remove()
     
-  liValor.remove()
 }
