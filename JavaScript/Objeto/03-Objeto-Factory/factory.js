@@ -1,4 +1,4 @@
-//Declaro um objeto usando Factory (FABRICA) ele usa um molde para farias aplicaçoes aproveitando assim meu codigo.
+//Declaro um objeto usando Factory (FABRICA) ele usa um molde para Varias aplicaçoes aproveitando assim meu codigo.
 
 function criarMicrofone(cor = "black" ){
     
