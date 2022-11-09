@@ -2,7 +2,7 @@
 
 const microfone = {
   cor: "black",
-  ligado: false,
+  ligado: true,
 //toggleOnOff --> traducao ativar desativar estou chamando uma fuçao para essa variavel
   ativarDesativar: function () {
     if(microfone.ligado){//so vai entra aqui se for verdadeiro True

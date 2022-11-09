@@ -1,18 +1,20 @@
 //Declaro um objeto usando Factory (FABRICA) ele usa um molde para farias aplicaçoes aproveitando assim meu codigo.
 
-function criarMicrofone(cor="black", ligado = -true){
-    return {
-        ligado: ligado,
-        ligadarOnOff: function(){
+function criarMicrofone(cor = "black" ){
+    
+       let  ligado =  true
+
+         function ligarOnOff(){
             if(ligado){
                 console.log("Desligar")
             }else{
                 console.log("Ligar")
             }
             ligado = !ligado
-        },
-    }
+        }
+        return { cor, ligarOnOff};
+    
 }
 
 const microfone = criarMicrofone()
-console.log(microfone)
+microfone.ligarOnOff()
