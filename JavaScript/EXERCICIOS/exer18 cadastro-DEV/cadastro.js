@@ -1,21 +1,38 @@
-let butao = document.querySelector("#enviar");
-butao.addEventListener('click',regitra )
-
-
-function regitra(ev){
-    ev.preventDefault()
-    
-    let inputNome = document.getElementById("nome").value;
-    const form = document.getElementById("list");
-    const input = document.createElement("input");
-    input.type = 'text';
-    input.id = "nome";
-    input.name = 'nome'
-
-    form.appendChild(input);
-    
-    console.log({inputNome})
-
+function createLabel(text, htmlFor){
+    const label = document.createElement('label');
+    label.htmlFor = htmlFor;
+    label.text = text;
+    return label;
 }
 
-//nao to conseguindo pegar o valort do input que adcionei 
+function createInput(id, value, name, type, placeholder = ''){
+    const input = document.createElement('input');
+    input.id = id;
+    input.value = value;
+    input.name = name;
+    input.type = type;
+    input.placeholder = placeholder;
+    return input
+}
+ const addTechBtn = document.querySelector('#addTechBtn')
+ const form = document.querySelector('#devForm');
+ const developers = [];
+ let inputRows = 0
+
+
+
+addTechBtn.addEventListener('click', function(ev){
+    const stackInput = document.querySelector("#stackInputs");
+
+    const newRow = document.createElement('li');
+    const rowIndex = inputRows;
+    rowIndex++;
+    newRow.id = 'inputRows-' + rowIndex;
+    newRow.className = 'inputRow';
+
+    const techNameLabel = createLabel('Nome','techName-' + rowIndex);
+    const techNameInput = createInput('techName-' + rowIndex, null, 'techName')
+
+    newRow.append(techNameLabel,techNameInput)
+    stackInput.appendChild(newRow)
+})
