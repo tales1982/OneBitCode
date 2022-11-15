@@ -1,0 +1,8 @@
+let n1 = [2 , 4, 8 , 7]
+let soma = 0
+
+for(let i; n1;){
+    soma += n1[i]
+}
+
+console.log(soma)
