@@ -1,4 +1,5 @@
 {
-  "cSpell.words": ["Ajudando"],
-  "cSpell.language": "pt-BR,en,fr,fr-FR"
+  "cSpell.words": ["Ajudando", "normale"],
+  "cSpell.language": "pt-BR,en,lorem",
+  "cSpell.enableFiletypes": ["!javascript", "sass"]
 }
