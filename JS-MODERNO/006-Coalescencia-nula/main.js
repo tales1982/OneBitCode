@@ -20,3 +20,5 @@ console.log(foo);
 const numero = 0 ?? 40;
 console.log(numero)
 //nesse caso ele me retorna o 0 mesmo quze o (0) seja considerado false, ele so vai iguinora ser for null ou undefined.
+
+console.log({a,b})
