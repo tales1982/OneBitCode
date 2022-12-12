@@ -1,6 +1,6 @@
 /*const lodash = require("lodash")//estou importando a bliblioteca lodash
 console.log(lodash.isArray([]))
-console.log(lodash.kebabCase("tales lima de paula"))*/
+console.log(lodash.kebabCase("tales lima de paula"))***/
 const dados = {
   nome: "Tales Lima", //string
   job: "Fullstack Develope", //string
