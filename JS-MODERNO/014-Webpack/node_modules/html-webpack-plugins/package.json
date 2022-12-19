@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "npm-ued"
+  },
+  "bugs": {
+    "url": "https://github.com/npm-ued/html-webpack-plugins/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An esay plugin for webpack base on html-webpack-plugin  ",
+  "homepage": "https://github.com/npm-ued/html-webpack-plugins#readme",
+  "keywords": [
+    "html-webpack-plugins",
+    "webpack"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "html-webpack-plugins",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm-ued/html-webpack-plugins.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "3.0.0"
+}
