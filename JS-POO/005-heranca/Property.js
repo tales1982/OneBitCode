@@ -16,7 +16,7 @@ const someHouse = new House(200,5000)
 
 class Appartament extends Property {
     constructor(floor,city,area,price){
-        super(area,price)
+        super(area,price)//SUPER para busca as propriedades da class mae
         this.floor = floor
         this.city = city
     }
