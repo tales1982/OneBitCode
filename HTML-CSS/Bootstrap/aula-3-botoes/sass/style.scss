@@ -1,0 +1,21 @@
+@import"variaveis/variaveis.scss";
+
+body{
+    background-color: $background-color;
+    & h1{
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    & h2{
+        padding-top: 50px;
+        text-align: left;
+        color: white;
+    }
+}
+.container, .container-2{
+   
+    margin: auto;
+   
+    
+}

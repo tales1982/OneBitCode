@@ -1,0 +1,57 @@
+.body {
+  background-image: url(../imagens/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+  background-color: rgb(27, 26, 26);
+  padding: 15px;
+}
+.form img {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 50%;
+  margin: auto;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.selct2, .select3, .stacked {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-1 {
+  margin: auto;
+  padding-top: 30px;
+  width: 80px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+@media (max-width: 514px) {
+  .form {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

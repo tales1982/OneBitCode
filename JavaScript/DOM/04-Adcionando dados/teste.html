@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="teste.js" defer></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="section">
+      <h1>Adcionar</h1>
+      <label for="ijogo">nome</label>
+      <input type="text" class="nome" name="jogado" id="ijogo" onfocus="this.value='';"/>
+
+      <label for="ijogo">sobrenome</label>
+      <input type="text" class="sobrenome" name="jogado" id="ijogo2" onfocus="this.value='';"/><!--onfocus="this.value='';" apaga o valor do input quando clico-->
+    
+      <input type="submit" value="enviar" onclick="enviar()"/>
+
+      <button onclick="removeContact()">Remover</button>
+      <span id="list-span"> </span>
+
+    </section>
+    <hr>
+   
+    
+   
+  </body>
+</html>

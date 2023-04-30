@@ -1,0 +1,21 @@
+@import"variaveis/variaveis.scss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.body{
+    background-color: black;
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+        color: $color-whit;
+    }
+
+}
+.h-1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: $color-whit;
+}

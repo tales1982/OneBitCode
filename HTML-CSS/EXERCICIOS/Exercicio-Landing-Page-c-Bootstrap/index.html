@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="imagens/FAVICON-SPACEX.png" type="image/x-icon">
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <title>Landing Page com Bootstrap</title>
+  </head>
+  <body class="py-5 body">
+    <div class="container px-4 container">
+      <form class="form">
+        <img src="imagens/logoOneBitDark.png" alt="logo" />
+        <h6>1-Qual o seu nome?</h6>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Primeiro Nome:</span>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Segundo Nome:</span>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="h6">
+          <h6>Qual o seu gênero?</h6>
+        </div>
+        <div class="radio">
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label class="form-check-label" for="inlineRadio1">Homen</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label class="form-check-label" for="inlineRadio2">Mulher</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio3"
+              value="option3"
+            />
+            <label class="form-check-label" for="inlineRadio3"
+              >Prefiro nao informa</label
+            >
+          </div>
+        </div>
+        <div class="h6 mt-3">
+          <h6>3 - Marque os treinamentos que você fez:</h6>
+        </div>
+
+        <div class="select">
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDefault"
+            />
+            <label class="form-check-label" for="flexSwitchCheckDefault"
+              >Treinamento básico de astronauta</label
+            >
+          </div>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckChecked"
+            />
+            <label class="form-check-label" for="flexSwitchCheckChecked"
+              >Treinamento físico básico</label
+            >
+          </div>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckDisabled"
+            />
+            <label class="form-check-label" for="flexSwitchCheckDisabled"
+              >Treinamento avançado de astronauta</label
+            >
+          </div>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="flexSwitchCheckCheckedDisabled"
+            />
+            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled"
+              >Treinamento físico intenso</label
+            >
+          </div>
+        </div>
+
+        <div class="h6 pt-3">
+          <h6>4 - Quais você acha que são suas qualidades?</h6>
+        </div>
+
+        <div class="selct2">
+          <div class="stacked">
+
+
+
+            <div class="form-check pe-2">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="defaultCheck1"
+              />
+              <label class="form-check-label" for="defaultCheck1">
+                Proativo
+              </label>
+            </div>
+
+
+
+            <div class="form-check pe-2">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="defaultCheck2"
+              />
+              <label class="form-check-label" for="defaultCheck2"
+                >Resistente
+              </label>
+            </div>
+          </div>
+
+
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Não vomito fácil</label
+            >
+          </div>
+        </div>
+
+<div class="select3">
+    <div class="form-check pe-4">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Não temo marciano
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+  <label class="form-check-label" for="defaultCheck2">
+    Já vi todos os star wars
+
+  </label>
+</div>
+</div>
+
+        <div class="btn-1"><button type="button" class="btn btn-outline-danger">Danger</button></div>
+      </form>
+      
+<footer class="footer">
+    <p>Replicado do site © OneBitCode</p>
+</footer>
+
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

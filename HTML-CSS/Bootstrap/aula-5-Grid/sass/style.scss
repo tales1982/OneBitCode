@@ -1,0 +1,27 @@
+@import"variaveis/variaveis.scss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    
+    background-color: $color-black;
+    color: $color-white;
+}
+.texto-principal{
+    padding: 30px;
+    
+    text-align: center;
+}
+.fundo-1{
+
+    background-color: $color-red;
+}
+.fundo-2{
+    color: black;
+    background-color: white;
+}
+.fundo-3{
+    background-color: rgb(42, 44, 165);
+}

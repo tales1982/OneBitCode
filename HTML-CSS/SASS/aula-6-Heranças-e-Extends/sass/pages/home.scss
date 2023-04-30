@@ -1,0 +1,16 @@
+body{
+    background-color: pink;
+    & .btn{
+        font-size: $tamanho-da-fonte;
+        height: $altura;
+        width: $largura;
+        margin: $espacamento-interno;
+        border-radius: $borda;
+    }& .btn-green{
+        background-color: green;
+    }& .btn-red{
+        background-color: red;
+    }& .btn-blue{
+        background-color: blue;
+    }
+}

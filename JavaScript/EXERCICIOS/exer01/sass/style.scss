@@ -1,0 +1,13 @@
+.body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    & .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 300px;
+        #enviar{
+            margin-top: 50px;
+        }
+    }
+}

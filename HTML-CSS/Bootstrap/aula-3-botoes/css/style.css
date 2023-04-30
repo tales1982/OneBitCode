@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(3, 3, 3);
+}
+body h1 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+body h2 {
+  padding-top: 50px;
+  text-align: left;
+  color: white;
+}
+
+.container, .container-2 {
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

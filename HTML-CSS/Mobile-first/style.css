@@ -1,0 +1,76 @@
+
+/*Uma boa pratica e comesar o site pelo mobile o tornando resposivel primeiro fica muito mais facil ir de mobile -> tablete-> pc -> tv.*/
+body{
+
+    color: black;
+}
+h1{
+    text-align: center;
+}
+
+.img-content{
+
+  width: 765px;
+  height: 400px;
+}
+.text-content{
+    
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*OBS--O tamanho maior do media query se'mpre tem que tar em cima seguindo a orden como aqui no exemplo abaixo começ do celular 320px ate a tela grande. */
+
+@media(max-width: 2560px) {
+     .img-content{
+        width: 90%;
+        height: auto;
+    }
+    .title-content{
+        font-size: 54px;
+        text-align: center;
+    }
+    .text-content {
+        font-size: 26px;
+        text-align: center;
+    }
+}
+@media(max-width: 1440px) {
+     .img-content{
+        width: 90%;
+        height: auto;
+    }
+    .title-content{
+        font-size: 50px;
+        text-align: center;
+    }
+    .text-content {
+        font-size: 22px;
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    .img-content{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media(max-width:425px){
+    .img-content{
+        width: 100%;
+        height: auto;
+    }
+    .title-content{
+        text-align: center;
+    }
+    .text-content {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+}@media(max-width: 320px){
+    .text-content{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,14 @@
+@import"vareaveis/vareaveis.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    color: $text-color;
+}
+.text-h1{
+    text-align: center;
+    color: $text-color;
+}

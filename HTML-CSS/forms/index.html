@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Encontre no Google</h1>
+    <form action="https://www.google.com/search">
+      <label for="q">O que deseja pesquisar</label>
+      <input
+        type="text"
+        id="q"
+        name="q"
+        placeholder="Digite aqui sua pesquisa "
+        required
+      />
+      <!--No (type text ) se eu mudar para (type email) so vai ser valido se digitar um email (@) e obligatorio (required)-->
+      <!--o (inpute)  e onde vai digitar o testo-->
+      <!--o (required) obriga o cliente digitar alguma coisa senao nao vai fucionar-->
+      <!--o (placeholder) o texto que aparece dentro da caixa input para indicar alguma coisa-->
+      <input type="submit" value="Pesquisar" />
+    </form>
+    <br />
+    <hr />
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        value=""
+        placeholder="Digite o nome"
+      /><br />
+      <label for="lname">Last name:</label><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        value=""
+        placeholder="Digite o sobrenome"
+      /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

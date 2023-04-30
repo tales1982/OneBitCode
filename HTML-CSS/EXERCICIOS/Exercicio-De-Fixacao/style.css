@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 10px 25px;
+  align-items: center;
+}
+.icone-rock{
+width: 40px;
+}
+.logo-one{
+width: 250px;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  
+  /*o gap tem o mesmo efeito que o margin no flexbox e recomendado o usso do gap pra dar espacamenro.*/
+ 
+}
+.bth{
+font-size: 20px;
+padding: 10px 15px;
+border-radius: 10px;
+background-color: transparent;
+border-color: white;
+color: white;
+cursor: pointer;
+transition: 0.4s;
+}
+.bth:hover{
+    border-color: red;
+}

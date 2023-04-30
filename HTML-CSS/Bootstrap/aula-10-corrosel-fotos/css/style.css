@@ -1,0 +1,32 @@
+.body {
+  background-color: black;
+  color: white;
+}
+
+.h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.carousel, .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.carrosel-4 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

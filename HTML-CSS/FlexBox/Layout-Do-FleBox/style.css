@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darkgray;
+    min-height: 100vh;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    gap: 0px 15px;
+    justify-content: center;/*tenho varias opçoes para centraliza tenho o center*/
+    align-items: center;/*Com essa opçao vou alinha minha imaguen no centro da tela bem no meio*/
+   /* flex-wrap: wrap;/*Muito importante fais com que quebre a linha se eu tiver 3 imagens quando eu diminuir minha janela vai ser quebrada pra baixo o pra cima dependo se eu quero que quebre pra cima ou baixo*/
+}
+.item{
+    width: 35%;
+    /*height: 100px;*/
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;/*O flex-basis altera o tamanho da imagen posso ussar px ou porcentagen*/
+    /*flex-grow: (1;Fais com que minhas imagens ocupe toda a tela quando eu almento de tamanho, tenho 2 valores 0 ou 1)*/
+
+}
+.item1{
+/*Aflex-grow: --1;plico somente nessa imagen*/
+/*flex-shrink: 2;*//*Fais com que quando eu reduza a imagens o iten1 diminua mais que as outras.*/
+}
+.item2{
+/*flex: 1 0 640px;/*usando essa short hand para monta exemplo heard-100px -body 1200 px - footer 100px so pra ter ideia como ficaria lembrando que prisiso ter minha flex direction column*/
+}
+.item3{
+
+}
+@media (max-width:390px){
+    .item2{
+flex: 1 0 640px;}
+}

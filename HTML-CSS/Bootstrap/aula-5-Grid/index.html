@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <title>Grid</title>
+  </head>
+  <body class="body">
+    <h1 class="texto-principal">Bootstrap grid</h1>
+    <div class="container">
+      <div>
+        <!--1° reposibilidade 2 colunas-->
+        <h1><u>Responsividade do grid</u></h1>
+        <div class="row gy-3">
+          <!--O gx-1 (gy) e o espaçamento entre as colunas posso ir de 1 a 5 e outras mais.-->
+          <div class="col-md-2 coll fundo-1"><!--MUITO IMPORTANTE (SM-MD-LG)PEQUENO-MEDIO LONGO serve par que minhas div quebre em colunas para ficar responsivel-->
+            <h2>Sidebars right</h2>
+            <p>Teste para nosso coluna -1</p>
+          </div>
+          <div class="col-md-8 coll fundo-2"><!--O (-8)seguinifica quantas colunas minha div vai ocupar normalmente e ate 12-->
+            <h2>COLUNA 2 Principal</h2>
+            Teste para odi laborum sit, sequi at laudantium rerum cupiditate.
+            Voluptatem fugit nemo nisi sint assumenda. Enim, tempora nisi
+            aliquam accusantium rem at eos corrupti laudantium commodi itaque
+            optio possimus dolor iure voluptates modi quam blanditiis culpa
+            voluptate corporis non repellat libero. Veritatis, corrupti.- 2
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            eius eligendi distinctio eum, exercitationem sapiente deserunt nemo,
+            facere veritatis saepe non dignissimos impedit eaque corporis dicta
+            molestiae aliquid quos animi.
+          </div>
+          <div class="col-md-2 coll fundo-3">
+            <h2>sidebar lateral </h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+          </div>
+        </div>
+        <!--FIM DA 1° reposibilidade 2 colunas e coluna 3-->
+      </div>
+
+      <!--FIM DO CONTAINER-->
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

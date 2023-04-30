@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+form, h1, h2, li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    
+}
+label, input{
+    margin: 8px;
+    padding: 5px;
+}
+#section-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butao{
+    margin: 10px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(39, 9, 144);
+}

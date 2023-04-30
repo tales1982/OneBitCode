@@ -1,0 +1,15 @@
+.textBuy{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: $primary-color;
+}
+.btn{
+    padding: 10px 15px;
+    border: 1px solid red($color: #000000);
+    background-color: $secundary-color;
+    color: aqua;
+    &:hover{
+        background-color: green;
+        transition: 1s;
+    }
+}

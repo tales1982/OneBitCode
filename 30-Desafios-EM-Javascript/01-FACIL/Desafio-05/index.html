@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Défi</title>
+</head>
+<body>
+    <header>
+        <button id="darkBtn">Theme Dark</button>
+    </header>
+    <h1>Test de vitesse</h1><hr>
+    <h2>Mesurons votre vitesse.</h2>
+
+    <form>
+        <ul>
+            <li>
+                  <label for="nome">Nome</label><br>
+        <input type="text" required placeholder="Votre Nome" id="nome">
+            </li><br>
+
+            <li>
+                <label for="velActuel">Quelle est votre vitesse actuelle.</label><br>
+        <input type="number" required id="velActuel" placeholder="Km/hr">
+            </li><br>
+
+            <li>
+                <label for="vitesseAtteindre">Quelle vitesse veux-tu atteindre</label><br>
+                <input type="number" id="vitesseAtteindre" required placeholder="Min = 0 et Max = 200">
+            </li><br>
+            <li>
+                <input type="submit" value="Envoier" id="submit">
+            </li>
+        </ul>
+      
+    </form><br>
+
+    <span><h3 id="res"></h3></span>
+</body>
+</html>
