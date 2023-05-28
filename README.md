@@ -113,7 +113,9 @@ Merci à tous ceux qui partagent des connaissances et des ressources en ligne,
 permettant aux étudiants comme moi d'accéder à des informations précieuses et à 
 des opportunités d'apprentissage.
 Je remercie également la communauté des développeurs Web pour leur
+
 ========================================= PT-BR =======================================
+
 # OneBitCode
 Projeto de Estudo - Desenvolvimento Web
 Descrição
