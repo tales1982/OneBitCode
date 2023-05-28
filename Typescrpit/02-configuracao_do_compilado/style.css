@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+.page-conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    background-color: rgb(249, 239, 226);
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 1.5em;
+    width: 1100px;
+    padding: 15px;
+}
+.bloco-cod{
+    height: auto;
+    padding: 10px;
+    background-color: rgba(208, 192, 171, 0.416);
+}
