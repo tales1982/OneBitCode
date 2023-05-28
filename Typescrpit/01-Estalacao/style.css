@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+.page-conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    background-color: antiquewhite;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 1.4em;
+    width: 1100px;
+    background-color: rgb(232, 222, 210);
+    padding: 15px;
+}

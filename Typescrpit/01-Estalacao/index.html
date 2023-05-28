@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Typescript</title>
+</head>
+<body>
+    <div class="page-conteiner">
+        <section class="conteiner-1 container">
+    <h1>Como Instalar e Usar o Typescript</h1>
+    <h2>Objetivos da Aula</h2>
+    <ul>
+        <li>Mostrar como instalar o TypeScript por projeto (e talvez globalmente)</li>
+        <li>Mostrar como executar o tsc</li>
+        <li>Mostrar a compilação de arquivos TS em arquivos JS</li>
+        <li>Mostrar o resultado JS padrão (ES3) criado pelo tsc</li>
+    </ul>
+        </section>    
+        <section class="conteiner-2 container">
+            <h2>Snippets</h2>
+            <p><strong>1.</strong> Caso não tenha iniciado um projeto Node.js crie a pasta, acesse-a e execute o comando:</p>
+            <span class="bloco-cod">
+                <p>mkdir usando-typescript && cd usando-typescript <br><strong class="texto-cor">npm init -y</strong></p>
+            </span>
+        </section>
+        <section class="conteiner-3 container">
+            <p><strong>2.</strong> Com o projeto iniciado, instale o Typescript como dependência de desenvolvimento:</p>
+            <span class="bloco-cod">
+                <p><strong>npm intall --save-dev typescript </strong></p>
+            </span>
+        </section>
+        <section class="conteiner-4 container">
+            <p><strong>3. </strong>Crie um arquivo index.ts:</p>
+            <span class="bloco-cod">
+                <p><strong>touch index.ts</strong></p>
+            </span>
+        </section>
+        <section class="conteiner-5 container">
+            <p><strong>4.</strong> Caso não tenha iniciado um projeto Node.js crie a pasta, acesse-a e execute o comando:</p>
+            <span class="bloco-cod">
+                <p>const setPilot = (newPilot: string, spaceship: { name?: string; pilot: string; speed?: number; inMission?: boolean; }) <br> => {
+                    spaceship.pilot = newPilot;
+                  }
+                  
+                  const accelerate = (targetSpeed: number, spaceship: { name?: string; pilot?: string; speed: any; inMission?: boolean; }) <br> => {
+                    spaceship.speed = targetSpeed;
+                  }
+                  
+                  const sendToMission = (spaceship: { name?: string; pilot?: string; speed?: number; inMission: any; }) <br> => {
+                    spaceship.inMission = true;
+                  }
+                  <br>
+                  const spaceship = { <br>
+                    name: '', <br>
+                    pilot: '', <br>
+                    speed: 0, <br>
+                    inMission: false, <br>
+                  } <br>
+                  
+                  const pilot = "Han Solo"; <br>
+                  
+                  spaceship.name = "Millennium Falcon"; <br>
+                  
+                  setPilot(pilot, spaceship); <br>
+                  accelerate(50, spaceship); <br>
+                  sendToMission(spaceship); <br>
+                  
+                  console.log(spaceship);</p>
+            </span>
+        </section>
+        <section class="conteiner-6 container">
+            <p><strong>5.</strong> Utilize o comando abaixo para executar o compilador: (repare que ele converte as arrow functions para funções anônimas comuns)</p>
+            <span class="bloco-cod">
+                <p><strong>npx tsc index.ts</strong></p>
+            </span>
+        </section>
+        <section class="conteiner-7 container">
+            <p><strong>6.</strong> Atualize o arquivo package.json para que inclua o script abaixo:</p>
+            <span class="bloco-cod">
+                <p>{
+                    "name": "usando-typescript",<br>
+                    "version": "1.0.0",<br>
+                    "description": "",<br>
+                    "main": "index.js",<br>
+                    "scripts": {<br>
+                      "build": "tsc index.ts"<br>
+                    },<br>
+                    "keywords": [],<br>
+                    "author": "",<br>
+                    "license": "ISC",<br>
+                    "devDependencies": {<br>
+                      "typescript": "^4.4.4"<br>
+                    }<br>
+                  }</p>
+            </span>
+        </section>
+        <section class="conteiner-8 container">
+            <p><strong>7.</strong> Exclua o arquivo index.js e execute o compilador através do script:</p>
+            <span class="bloco-cod">
+                <p><strong>rm index.js</strong><br>
+                    <strong>npm run build</strong></p>
+            </span>
+        </section>
+  
+
+    </div>
+  
+</body>
+</html>
