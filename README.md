@@ -1,7 +1,8 @@
 # OneBitCode
 Study Project - Web Development
 Description
-This is a study repository created by a student who is learning web development technologies and frameworks,
+This is a study repository created by a student who is learning web development
+technologies and frameworks,
 including HTML, CSS, Sass, Bootstrap, JavaScript, TypeScript and Bulma.
 The main objective is to practice and improve skills in these areas,
 as well as build interesting and functional projects.
@@ -14,7 +15,8 @@ Bootstrap: A popular CSS framework that makes it easy to create responsive and s
 JavaScript: Programming language used to add interactivity and dynamic behavior to web pages.
 TypeScript: A JavaScript-based programming language that provides additional
 static typing and support for modern JavaScript features.
-Bulma: A lightweight and flexible CSS framework that makes it easy to create responsive and custom layouts.
+Bulma: A lightweight and flexible CSS framework that makes it easy to create 
+responsive and custom layouts.
 Goals
 Master the basic structure of an HTML page.
 Learn to style elements using pure CSS.
@@ -51,7 +53,7 @@ Thanks to everyone who shares knowledge and resources online,
 allowing students like me to access valuable information and learning opportunities.
 I also thank the web development community for their
 
-===================================================== FR ==============================================
+========================================= FR =======================================
 # OneBitCode
 Projet d'étude - Développement Web
 Description
@@ -64,9 +66,11 @@ ainsi que de construire des projets intéressants et fonctionnels.
 Technologies utilisées
 HTML : Langage de balisage utilisé pour structurer le contenu de la page.
 CSS : langage de style utilisé pour définir la mise en page et l'apparence visuelle.
-Sass : un préprocesseur CSS qui fournit des fonctionnalités supplémentaires telles que les variables, les mixins et l'imbrication.
+Sass : un préprocesseur CSS qui fournit des fonctionnalités supplémentaires telles que les variables,
+les mixins et l'imbrication.
 Bootstrap : Un framework CSS populaire qui facilite la création de mises en page réactives et stylisées.
-JavaScript : langage de programmation utilisé pour ajouter de l'interactivité et un comportement dynamique aux pages Web.
+JavaScript : langage de programmation utilisé pour ajouter de l'interactivité et 
+un comportement dynamique aux pages Web.
 TypeScript : un langage de programmation basé sur JavaScript qui fournit des
 typage statique et prise en charge des fonctionnalités JavaScript modernes.
 Bulma : un cadre CSS léger et flexible qui facilite la création de mises en page réactives et personnalisées.
@@ -100,15 +104,16 @@ Utilisez JavaScript et TypeScript pour ajouter des fonctionnalités de gestion d
 Utilisez Bulma pour styliser l'application.
 Contribution
 Si vous souhaitez contribuer à ce projet d'étude, n'hésitez pas à bifurquer ce référentiel,
-apporter des améliorations ou ajouter de nouveaux projets. Il est également possible de suggérer des idées de nouveaux projets ou
+apporter des améliorations ou ajouter de nouveaux projets. 
+Il est également possible de suggérer des idées de nouveaux projets ou
 fournir des commentaires sur le contenu existant.
 
 Merci
 Merci à tous ceux qui partagent des connaissances et des ressources en ligne,
-permettant aux étudiants comme moi d'accéder à des informations précieuses et à des opportunités d'apprentissage.
+permettant aux étudiants comme moi d'accéder à des informations précieuses et à 
+des opportunités d'apprentissage.
 Je remercie également la communauté des développeurs Web pour leur
-
-===================================================== PT ==============================================
+========================================= PT-BR =======================================
 # OneBitCode
 Projeto de Estudo - Desenvolvimento Web
 Descrição
@@ -123,7 +128,8 @@ HTML: Linguagem de marcação usada para estruturar o conteúdo da página.
 CSS: Linguagem de estilo utilizada para definir o layout e a aparência visual.
 Sass: Um pré-processador CSS que fornece recursos adicionais, como variáveis, mixins e aninhamento.
 Bootstrap: Um framework CSS popular que facilita a criação de layouts responsivos e estilizados.
-JavaScript: Linguagem de programação usada para adicionar interatividade e comportamento dinâmico às páginas web.
+JavaScript: Linguagem de programação usada para adicionar interatividade e 
+comportamento dinâmico às páginas web.
 TypeScript: Uma linguagem de programação baseada em JavaScript que oferece recursos adicionais de 
 tipagem estática e suporte a recursos modernos do JavaScript.
 Bulma: Um framework CSS leve e flexível que facilita a criação de layouts responsivos e personalizados.
