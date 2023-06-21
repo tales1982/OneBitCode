@@ -1,0 +1,12 @@
+{
+  "name": "09-interface",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch-tsc":"tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
