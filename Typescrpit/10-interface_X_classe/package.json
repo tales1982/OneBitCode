@@ -1,0 +1,12 @@
+{
+  "name": "10-interface_X_classe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch-tsc":"tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
